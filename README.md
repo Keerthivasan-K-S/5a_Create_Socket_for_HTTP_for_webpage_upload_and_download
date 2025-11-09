@@ -4,19 +4,19 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 ## Algorithm
 
 1.Start the program.
-<BR>
+
 2.Get the frame size from the user
-<BR>
+
 3.To create the frame based on the user request.
-<BR>
+
 4.To send frames to server from the client side.
-<BR>
+
 5.If your frames reach the server it will send ACK signal to client otherwise it will send NACK signal to client.
-<BR>
+
 6.Stop the program
-<BR>
+
 ## Program 
-```
+```.py
 import socket
 def send_request(host, port, request):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
